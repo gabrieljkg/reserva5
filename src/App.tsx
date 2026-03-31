@@ -7,7 +7,7 @@ import { ListProperty } from './pages/ListProperty';
 import { Profile } from './pages/Profile';
 import { AdminReservations } from './pages/AdminReservations';
 import { Success } from './pages/Success';
-import { WhatsAppButton } from './components/WhatsAppButton';
+
 
 import { CartProvider, useCart } from './context/CartContext';
 
@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/admin/reservas" element={<AdminReservations />} />
           <Route path="/sucesso" element={<Success />} />
         </Routes>
-        <WhatsAppButton />
+       
       </BrowserRouter>
     </CartProvider>
   );
