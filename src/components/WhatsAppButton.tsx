@@ -16,10 +16,17 @@ const WhatsAppButton = () => {
         textDecoration: 'none',
         zIndex: 1000,
         display: 'flex',
-        align-items: 'center'
+        alignItems: 'center',
+        boxShadow: '2px 2px 10px rgba(0,0,0,0.2)'
       }}
       target="_blank"
+      rel="noopener noreferrer"
     >
+      <img 
+        src="https://wikimedia.org" 
+        alt="WhatsApp" 
+        style={{ width: '20px', marginRight: '8px' }} 
+      />
       WhatsApp
     </a>
   );
